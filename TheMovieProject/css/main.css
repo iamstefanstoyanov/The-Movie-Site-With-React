@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Merriweather&display=swap');
+
+.main-container {
+  background: rgb(161, 121, 0);
+  background: rgb(161, 121, 0);
+  background: linear-gradient(117deg, rgb(114, 85, 0) 0%, rgba(0, 0, 0, 1) 29%, rgb(114, 85, 0) 72%, rgba(0, 0, 0, 1) 100%);
+  box-shadow: inset 0px 0px 3px 4px #414141;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: fit-content;
+  min-height: 75vh;
+  padding: 2em;
+}
+
+h1 {
+  color: #9e7b07;
+  padding: 0.3em 0.8em;
+  background: #4141417a;
+  border-radius: 0.6em;
+  border: 1px solid rgb(167, 167, 167);
+  margin-bottom: 1em;
+  box-shadow: 0px 0px 10px 5px #7e7e7e;
+  text-shadow: 3px 3px 1px #494949, 0 0 1em rgb(156, 156, 156), 0 0 0.2em #838383;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: 9e7b07;
+  font-family: Merriweather;
+}

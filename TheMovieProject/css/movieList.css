@@ -1,0 +1,55 @@
+.movies-list-container {
+  padding: 4em;
+  width: 100%;
+  color: rgb(216, 216, 216);
+}
+
+.movies-list-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px #a78b3191;
+
+  background-color: rgba(107, 107, 107, 0.3);
+  border: 1px solid rgb(167, 167, 167);
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+
+.poster-small {
+  width: 80px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.movies-list-wrap a button {
+  height:100%;
+  margin-left: 2em;
+}
+
+.icon-add-to-watchlist {
+  fill: rgb(160, 160, 160);
+  width: 3em;
+}
+
+.icon-add-to-watchlist:hover {
+  fill: rgb(219, 219, 219);
+}
+
+.movie-info p span {
+  text-decoration: underline;
+  color: #4796ff;
+}
+
+b {
+  font-size: 1.1em;
+  color: rgb(176, 179, 0)
+}

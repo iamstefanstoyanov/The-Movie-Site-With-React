@@ -1,0 +1,119 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    padding: 1em;
+}
+
+.main-profile-info {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #a78b3191;
+    border: 1px solid rgb(167, 167, 167);
+
+    background-color: rgba(107, 107, 107, 0.3);
+    padding: 0.5em;
+    align-self: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-info p span {
+    text-decoration: underline;
+    color: #4796ff;
+}
+
+.profile-watchlist,
+.profile-comments {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+
+    box-shadow: 0px 0px 10px 5px #a78b3191;
+    background-color: rgba(107, 107, 107, 0.3);
+    padding: 2em;
+    color: rgb(216, 216, 216);
+}
+
+.profile-picture {
+    width: 100px;
+}
+
+.profile-watchlist,
+.profile-comments h4 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.profile-watchlist-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.profile-watchlist-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 180px;
+    transition: none;
+}
+
+.profile-watchlist-cards .card:hover {
+    width: 180px;
+}
+
+.profile-watchlist-cards .card .card-btn {
+    font-size: 0.6em;
+    width: initial;
+    display: inline-block;
+    width: 50%;
+}
+
+.profile-watchlist-cards .card h5 {
+    text-align: left;
+}
+.profile-watchlist-cards .card .card-btns{
+    width: 100%;
+}
+.edit-comment-btn,
+.delete-comment-btn {
+    font-size: 0.8em;
+    background: #353535;
+    color: rgb(255, 255, 255);
+    padding: 0.5em 0.6em;
+    margin: 0 0.3em;
+    border-radius: 8px;
+}
+
+.comment-boxes {
+    border-radius: 1em;
+    background-color: rgba(107, 107, 107, 0.3);
+    box-shadow: 0px 0px 10px 5px #9b9b9b91;
+    width: 45%;
+    padding: 0.5em;
+}
+
+.edit-delete-comments-btns {
+    float: right;
+
+}
+.delete-comment-btn:hover {
+    color: white;
+    background-color: #fc6262;
+    cursor: pointer;
+}

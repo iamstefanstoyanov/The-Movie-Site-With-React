@@ -1,0 +1,147 @@
+.movie-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+    border-radius: 10px;
+    background-color: rgba(107, 107, 107, 0.3);
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    color: rgb(216, 216, 216);
+    border: 1px solid rgb(167, 167, 167);
+    box-shadow: 0px 0px 10px 5px #a78b3191;
+}
+
+.movie-details-img {
+    width: 250px;
+}
+
+.movie-details-info {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-details-info p span {
+    text-decoration: underline;
+    color: #4796ff;
+}
+
+.movie-details-container .movie-details-btns {
+    margin-left: auto;
+    height: fit-content;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 1em;
+    padding:0.5em;
+}
+
+.add-to-watchlist-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.movie-details-container .icon-add-to-watchlist {
+    fill: rgb(160, 160, 160);
+    width: 5em;
+}
+
+.icon-add-to-watchlist:hover {
+    fill: rgb(219, 219, 219);
+}
+
+.prodCompanies img {
+    display: inline;
+    margin-right: 1em;
+    height: 2em;
+    width: auto;
+}
+
+h4 {
+    color: #9e7b07;
+    font-family: Merriweather;
+}
+
+.movie-comments-container {
+    border-radius: 10px;
+    background-color: rgba(107, 107, 107, 0.3);
+    padding: 1em;
+    color: rgb(216, 216, 216);
+    border: 1px solid rgb(167, 167, 167);
+    box-shadow: 0px 0px 10px 5px #a78b3191;
+    text-align: center;
+    width: 100%;
+
+}
+
+.movie-comments-container .comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.movie-comments-container .comments li,
+.edit-comment-container,
+.add-comment {
+    width: 45%;
+    border-radius: 10px;
+    background-color: rgba(107, 107, 107, 0.3);
+    color: rgb(216, 216, 216);
+    border: 1px solid rgb(167, 167, 167);
+    text-align: left;
+    padding: 0.5em;
+    display: inline;
+}
+
+.comment {
+    margin: 1em 0;
+}
+
+.comment-p {
+    margin: 0.2em 0;
+}
+
+.comments li p span {
+    text-decoration: underline;
+    color: #4796ff;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(104, 104, 104);
+    border: none;
+}
+
+.no-comments {
+    margin: 2em;
+}
+
+.add-comment {
+    width: 30%;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+textarea {
+    width: 100%;
+    height: 6em;
+    resize: none;
+    background-color: rgb(196, 196, 196);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.add-comment .btn-submit {
+    margin-top: 0.5em;
+}
+
+.added {
+    fill: rgb(160, 160, 160);
+    width: 5em;
+}
