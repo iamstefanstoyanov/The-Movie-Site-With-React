@@ -75,4 +75,4 @@ Project deplpoyed on Firebase, demo available here.
  - [  ] still working on responsive CSS
  - [  ] adding "Similar" section for every movie
  - [  ] adding more filters in "Search" page
- - [ x ] found a bug when adding first comment
+ - [ x ] found a bug when adding first comment (fixed)
