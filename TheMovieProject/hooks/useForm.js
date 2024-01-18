@@ -36,11 +36,17 @@ export default function useForm(submitHandler, initialValues) {
       }
     }
     if (name === 'imgUrl') {
-      const urlPattern = /^https:\/\//;
 
-      if (!urlPattern.test(value)) {
+      //Removed as it's not required
+
+      //const urlPattern = /^https:\/\//;
+      //if (!urlPattern.test(value)) {
+      //  newState.imgUrl = 'Invalid profile image format!';
+      //} 
+      
+      if(value === ''){
         newState.imgUrl = 'Invalid profile image format!';
-      } else {
+      }else{
         delete newState.imgUrl;
       }
     }
