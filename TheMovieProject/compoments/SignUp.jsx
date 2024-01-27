@@ -20,7 +20,6 @@ export default function SignUp() {
     return <Navigate to='/'/>;
   }
   
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const initialValues = useMemo(
     () => ({
       [formKeys.username]: '',
@@ -31,7 +30,6 @@ export default function SignUp() {
     }),
     []
   );
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { inputs, errors, onChangeInput, submitForm } = useForm(
     registerHandler,
     initialValues
@@ -67,12 +65,11 @@ export default function SignUp() {
             {errors?.email && <span className='error'>{errors.email}</span>}
             <input
               type='text'
-              placeholder='Profile image URL'
+              placeholder='Profile image URL (optional)'
               name={formKeys.url}
               onChange={onChangeInput}
               value={inputs[formKeys.url]}
             />
-            {errors?.imgUrl && <span className='error'>{errors.imgUrl}</span>}
             <input
               type='password'
               placeholder='Password'

@@ -35,22 +35,6 @@ export default function useForm(submitHandler, initialValues) {
         delete newState.email;
       }
     }
-    if (name === 'imgUrl') {
-
-      //Removed as it's not required
-
-      //const urlPattern = /^https:\/\//;
-      //if (!urlPattern.test(value)) {
-      //  newState.imgUrl = 'Invalid profile image format!';
-      //} 
-      
-      if(value === ''){
-        newState.imgUrl = 'Invalid profile image format!';
-      }else{
-        delete newState.imgUrl;
-      }
-    }
-
     if (name === 'password') {
       if (value.length <= 4) {
         newState.password = 'Password must be at least 5 characters long';
