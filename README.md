@@ -68,7 +68,7 @@ Current user comments can be found and modified in "Profile" page.
  - [Ivailo Papazov](https://github.com/ivailopapazov)
    
 ### Additional info
-Project deplpoyed on Firebase, demo available here.
+Project deployed on Firebase, demo available here.
  - [The Movie Site](https://themoviesite-8a4a7.web.app/)
 
 ### Next steps
